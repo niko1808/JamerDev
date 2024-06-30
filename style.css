@@ -1,0 +1,191 @@
+*{
+    background: transparent;
+    text-align: center;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: aquamarine;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill {
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    background-color: #282828;
+    color: #e0f7fa; /* Texto aquamarine claro */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: aquamarine;
+    color: #282828;
+}
+
+/* Estilos para las descripciones de habilidades */
+.skill-description {
+    background-color: #282828; /* Fondo gris oscuro */
+    color: #e0f7fa; /* Texto aquamarine claro */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: none; /* Ocultar inicialmente */
+    transition: opacity 1s ease; /* Transición de opacidad */
+    opacity: 0; /* Inicialmente transparente */
+}
+
+.skill-description.show {
+    display: block;
+    opacity: 1; /* Mostrar con opacidad completa */
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.carousel-text {
+    display: inline-block;
+    transform: translateX(100%);
+}
+
+/* Estilos mejorados para proyectos */
+.proyecto {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #282828;
+    color: #e0f7fa; /* Texto aquamarine claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.proyecto h3 {
+    color: aquamarine;
+}
+
+/* Estilos para el formulario de contacto */
+#contacto-form {
+    max-width: 500px;
+
+    margin: 25px auto;
+    padding: 50px;
+    background-color: #282828;
+    color: #e0f7fa; /* Texto aquamarine claro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#contacto-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: aquamarine;
+}
+
+#contacto-form input,
+#contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+#contacto-form button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    color: #282828;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#contacto-form button:hover {
+    background-color: #333;
+    color: aquamarine;
+    padding: 15px;
+}
+
+form{
+    padding: 15px;
+
+}
+
+#nombre{
+    text-align: left;
+    width: 90%;
+}
+
+#email{
+    text-align: left;
+    width: 90%;
+}
+
+textarea {
+    resize: none;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    /* Otros estilos según tu diseño */
+    text-align: start;
+}

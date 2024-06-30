@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a mi Portafolio</h1>
+        <p class="carousel">
+            <span class="carousel-text">Soy [JamerDev], un desarrollador web apasionado por crear aplicaciones increíbles.</span>
+        </p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <!-- Agrega más proyectos aquí -->
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li class="skill" data-skill="html">HTML5</li>
+            <li class="skill" data-skill="css">CSS3</li>
+            <li class="skill" data-skill="js">JavaScript</li>
+            <!-- Agrega más habilidades aquí -->
+        </ul>
+        <div id="skill-description-container"></div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="contacto-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [JamerDev]. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
